@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: BostonDevOpsSAM1234
+  host: BostonDevOpsSAM1234
+  disk_quota: 1024M
+  services:
+  - BostonDevOpsSAM1234-personality_insights
